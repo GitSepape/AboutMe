@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    $STYLES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    $THEMES
+\*------------------------------------*/
+@import
+    "";
+
+
+/*------------------------------------*\
+    $SETTINGS
+\*------------------------------------*/
+@import
+    "settings/mixings.scss",
+    "settings/variables.scss";
+
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+@import
+    "components/gridcells.scss",
+    "components/buttons.scss",
+    "components/forms.scss";
+
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+@import
+    "layout/footer.scss",
+    "layout/header.scss",
+    "layout/navbar.scss";
+
+
+/*------------------------------------*\
+    $UTILITIES
+\*------------------------------------*/
+@import
+    "utilities/utilities.scss",
+    "utilities/flex.scss";
+
