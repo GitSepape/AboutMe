@@ -1,0 +1,46 @@
+$blue-raf-dark:     "#9EB3C2";
+$blue-raf-standard: "#DDE4E9";
+$grey:              "#333333";
+$black:             "#000000";
+
+
+$cormorant: Cormorant Garamond, serif;
+$lato:      Lato, serif;
+ 
+ 
+$brand-colors: (
+'blue-raf-dark':    $blue-raf-dark,
+'blue-raf':         $blue-raf-standard,
+'grey':             $grey,
+'black':            $black
+);
+
+@each $color-name, $value in $brand-colors {
+    .color-#{$color-name} {
+        color: $value;
+    }
+    .bg-color-#{$color-name} {
+        color: $value;
+    }
+}
+
+$font-size: 12;
+
+@while $font-size <= 36 {
+    .font-size-#{$font-size} {
+        font-size: ($font-size * 1px);
+    }
+
+    $font-size: $font-size + 6;
+}
+
+$font-weight: 100;
+
+@while $font-weight <= 900 {
+    .font-weight-#{$font-weight} {
+        font-weight: ($font-weight * 1);
+    }
+
+    $font-weight: $font-weight + 100;
+}
+  
