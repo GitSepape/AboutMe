@@ -1,0 +1,9 @@
+$grid_cell: 5;
+
+@while $grid_cell <= 100{
+    .grid_cell--#{$grid_cell} {
+        flex: 0 0 calc(#{$grid_cell * 1%} - 16px);
+        margin: 0 8px;
+    }
+    $grid_cell: $grid_cell + 5;
+}
