@@ -1,13 +1,31 @@
-$blue-raf-dark:     "#9EB3C2";
-$blue-raf-standard: "#DDE4E9";
-$grey:              "#333333";
-$black:             "#000000";
+//-----> $COLORS
 
+$blue-raf-dark:     #9EB3C2;
+$blue-raf-standard: #DDE4E9;
+$grey:              #333333;
+$black:             #000000;
+
+//-----> $TYPOGRAPHY // $FONTS
 
 $cormorant: Cormorant Garamond, serif;
 $lato:      Lato, serif;
+$font-size: 12;
+$font-weight: 100;
+$padding-space: 5;
  
- 
+//-----> $SPACE
+
+$unit: 6px;
+$space: $unit * 2;
+$space--medium: $space * 1.5;
+$padding: $unit;
+$pagemaxwidth: 1024px;
+$grid_cell: 5;
+
+/*------------------------------------*\
+    $BUCLE COLORS
+\*------------------------------------*/
+
 $brand-colors: (
 'blue-raf-dark':    $blue-raf-dark,
 'blue-raf':         $blue-raf-standard,
@@ -20,11 +38,13 @@ $brand-colors: (
         color: $value;
     }
     .bg-color-#{$color-name} {
-        color: $value;
+        background-color: $value;
     }
 }
 
-$font-size: 12;
+/*------------------------------------*\
+    $BUCLE FONT-SIZE
+\*------------------------------------*/
 
 @while $font-size <= 36 {
     .font-size-#{$font-size} {
@@ -34,7 +54,9 @@ $font-size: 12;
     $font-size: $font-size + 6;
 }
 
-$font-weight: 100;
+/*------------------------------------*\
+    $BUCLE FONT-WEIGHT
+\*------------------------------------*/
 
 @while $font-weight <= 900 {
     .font-weight-#{$font-weight} {
@@ -43,4 +65,28 @@ $font-weight: 100;
 
     $font-weight: $font-weight + 100;
 }
-  
+ 
+/*------------------------------------*\
+    $BUCLE PADDING-SPACE
+\*------------------------------------*/
+
+
+@while $padding-space <= 100 {
+    .padding_space--#{$padding-space} {
+        padding: ($padding-space * 1%);
+    }
+
+    $padding-space: $padding-space + 5;
+}
+
+/*------------------------------------*\
+    $BUCLE GRID_CELL
+\*------------------------------------*/
+
+@while $grid_cell <= 100{
+    .grid_cell--#{$grid_cell} {
+        flex: 0 0 calc(#{$grid_cell * 1%} - 16px);
+        margin: 0 8px;
+    }
+    $grid_cell: $grid_cell + 5;
+}
