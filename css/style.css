@@ -4,38 +4,44 @@
 /*------------------------------------*\
     $SETTINGS
 \*------------------------------------*/
+/*------------------------------------*\
+    $BUCLE COLORS
+\*------------------------------------*/
 .color-blue-raf-dark {
-  color: "#9EB3C2";
+  color: #9EB3C2;
 }
 
 .bg-color-blue-raf-dark {
-  color: "#9EB3C2";
+  background-color: #9EB3C2;
 }
 
 .color-blue-raf {
-  color: "#DDE4E9";
+  color: #DDE4E9;
 }
 
 .bg-color-blue-raf {
-  color: "#DDE4E9";
+  background-color: #DDE4E9;
 }
 
 .color-grey {
-  color: "#333333";
+  color: #333333;
 }
 
 .bg-color-grey {
-  color: "#333333";
+  background-color: #333333;
 }
 
 .color-black {
-  color: "#000000";
+  color: #000000;
 }
 
 .bg-color-black {
-  color: "#000000";
+  background-color: #000000;
 }
 
+/*------------------------------------*\
+    $BUCLE FONT-SIZE
+\*------------------------------------*/
 .font-size-12 {
   font-size: 12px;
 }
@@ -56,6 +62,9 @@
   font-size: 36px;
 }
 
+/*------------------------------------*\
+    $BUCLE FONT-WEIGHT
+\*------------------------------------*/
 .font-weight-100 {
   font-weight: 100;
 }
@@ -93,7 +102,90 @@
 }
 
 /*------------------------------------*\
-    $COMPONENTS
+    $BUCLE PADDING-SPACE
+\*------------------------------------*/
+.padding_space--5 {
+  padding: 5%;
+}
+
+.padding_space--10 {
+  padding: 10%;
+}
+
+.padding_space--15 {
+  padding: 15%;
+}
+
+.padding_space--20 {
+  padding: 20%;
+}
+
+.padding_space--25 {
+  padding: 25%;
+}
+
+.padding_space--30 {
+  padding: 30%;
+}
+
+.padding_space--35 {
+  padding: 35%;
+}
+
+.padding_space--40 {
+  padding: 40%;
+}
+
+.padding_space--45 {
+  padding: 45%;
+}
+
+.padding_space--50 {
+  padding: 50%;
+}
+
+.padding_space--55 {
+  padding: 55%;
+}
+
+.padding_space--60 {
+  padding: 60%;
+}
+
+.padding_space--65 {
+  padding: 65%;
+}
+
+.padding_space--70 {
+  padding: 70%;
+}
+
+.padding_space--75 {
+  padding: 75%;
+}
+
+.padding_space--80 {
+  padding: 80%;
+}
+
+.padding_space--85 {
+  padding: 85%;
+}
+
+.padding_space--90 {
+  padding: 90%;
+}
+
+.padding_space--95 {
+  padding: 95%;
+}
+
+.padding_space--100 {
+  padding: 100%;
+}
+
+/*------------------------------------*\
+    $BUCLE GRID_CELL
 \*------------------------------------*/
 .grid_cell--5 {
   -webkit-box-flex: 0;
@@ -235,6 +327,9 @@
   margin: 0 8px;
 }
 
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
