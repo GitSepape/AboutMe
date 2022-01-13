@@ -6,15 +6,15 @@
     align-items: center;
 }
 
-
 #hamburger {
     display: none;
 }
 
 .hamitems {
-    transform: translateX(100%);
-    display: none;
-    position: absolute;
+    // display: none;
+    transform: translateX(200%);
+    display: block;
+    position: relative;
     right: 0;
     transition: all 0.2s ease;
 }
@@ -22,22 +22,30 @@
 .hamnav input:checked ~ .hamitems {
     display: block;
     position: absolute;
-    right: 0;
-    transform: translateX(-45%);
+    // right: 0;
+    transform: translateX(0%);
 }
 
 .hamitems a {
     display: block;
     width: 100%;
     padding: 10px;
-    border: 1px solid black;
+    // color: #fff;
+    border-top: 1px solid black;
     text-decoration: none;
     text-align: center;
     flex-grow: 1;
     flex-basis: 0;
 }
 
+// .hamitems a:hover {
+//     background: #8a0000;
+// }
+
 .hamnav svg {
+    // display: inline-block;
+    // color: #fff;
+    // background: #8a0000;
     font-size: 12em;
     font-style: normal;
     padding: 10px;
