@@ -1,0 +1,4 @@
+.grid {     //para las celdas 
+    display: flex;
+    @include max-width(2048px, 95%);
+}

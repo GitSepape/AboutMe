@@ -8,6 +8,11 @@ body, html {
   height: 100%;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .cormorant {
   font-family: Cormorant Garamond, serif;
 }
@@ -342,9 +347,86 @@ body, html {
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2048px;
+  width: 95%;
+}
+
+.formulario {
+  margin: 0;
+  padding: 0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+}
+
+.formulario--contenido {
+  border: solid 1px #333333;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.formulario--button {
+  border: solid 1px #333333;
+  border-radius: 5px;
+  padding: 16px;
+}
+
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
+.aficiones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0px;
+}
+
+.aficiones li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+.aficiones :first-child {
+  padding-top: 0;
+}
+
+.aficiones li span {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -404,6 +486,13 @@ body, html {
   padding: 10px;
 }
 
+.skills {
+  width: 100%;
+}
+
 /*------------------------------------*\
     $UTILITIES
 \*------------------------------------*/
+li {
+  list-style: none;
+}

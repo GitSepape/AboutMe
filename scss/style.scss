@@ -18,16 +18,19 @@
 @import
     "components/gridcells.scss",
     "components/buttons.scss",
-    "components/forms.scss";
+    "components/forms.scss",
+    "components/formulario.scss";
 
 
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
 @import
+    "layout/aficiones.scss",
     "layout/footer.scss",
     "layout/header.scss",
-    "layout/navbar.scss";
+    "layout/navbar.scss",
+    "layout/skills.scss";
 
 
 /*------------------------------------*\
