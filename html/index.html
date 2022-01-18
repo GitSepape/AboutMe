@@ -39,6 +39,7 @@
         <main>
             <section class="bg-color-blue-raf-dark"> <!-- en este section va a ir el grid cell 2, en el cual pertenece la foto de perfil con algo más -->
                 <div class="grid_cell--100">
+                    <div class="linea"></div>
                     <article> <!-- imagen de perfil y muy breve descripción -->
                         <img class="perfil-image" src="" alt="">
                         <h2 class="font-size-30 cormorant">Sergio Pascual</h2>
@@ -46,6 +47,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </span>
                     </article>
+                    <div class="linea"></div>
                     <article class="bg-color-blue-raf skills"> <!-- celda donde va a ir las skills etc -->
                         <h3 class="font-size-24 cormorant">Skills</h3>
                         <span class="lato font-weight-700 font-size-18">
@@ -54,13 +56,15 @@
                     </article>
                 </div>
             </section>
-            <section class="grid_cell--100"> <!-- aquí va el tercer grid cell con "about me", skills y formulario de contacto -->
+            <section class="grid_cell--100">
+                <div class="linea"></div> <!-- aquí va el tercer grid cell con "about me", skills y formulario de contacto -->
                 <article> <!-- celda donde va a ir about me -->
                     <h3 class="font-size-24 cormorant">About Me</h3>
                     <span class="lato font-weight-700 font-size-18">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, debitis, corporis beatae sit exercitationem dolore quia cum mollitia perferendis recusandae minima ipsum, unde reprehenderit quae ea praesentium at nostrum! Consectetur!
                     </span>
                 </article>
+                <div class="linea"></div>
                 <article> <!-- celda donde va a ir las aficiones -->
                     <h4 class="font-size-24 cormorant">Aficiones</h4>
                     <ol class="lato font-weight-700 font-size-18 aficiones grid">
@@ -98,8 +102,9 @@
                         </li>
                     </ol>
                 </article>
+                <div class="linea"></div>
+                <h4 class="font-size-24 cormorant">Contáctame!</h4>
                 <form class="formulario" action=""> <!-- formulario -->
-                    <h4 class="font-size-24 cormorant">Contáctame!</h4>
                     <input class="lato font-weight-700 font-size-18 formulario--contenido" type="text" name="nombre" placeholder="Nombre" required><br>
                     <input class="lato font-weight-700 font-size-18 formulario--contenido" type="email" name="correo" placeholder="Email" required><br>
                     <input class="lato font-weight-700 font-size-18 formulario--contenido" type="tel" name="telefono" placeholder="Teléfono" required><br>
@@ -108,7 +113,8 @@
                 </form>
             </section>
         </main>
-        <footer class="grid_cell--100"> <!-- Derechos reservados y todas esas parafernalias -->
+        <footer class="grid_cell--100 center-text">
+            <div class="linea footer-div"></div> <!-- Derechos reservados y todas esas parafernalias -->
             <span class="lato font-weight-600 font-size-18">
                 derechos reservados
             </span>

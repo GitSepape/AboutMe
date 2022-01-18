@@ -1,3 +1,21 @@
 li {
     list-style: none;       //Quitamos los numeros y los puntos de las listas en general
 }
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 100%;
+    padding: 0;
+    margin: 10px auto 0 auto;
+  }
