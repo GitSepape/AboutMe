@@ -5,7 +5,15 @@
     $SETTINGS
 \*------------------------------------*/
 body, html {
-  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 * {
@@ -212,140 +220,140 @@ body, html {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(5% - 16px);
           flex: 0 0 calc(5% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--10 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(10% - 16px);
           flex: 0 0 calc(10% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--15 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(15% - 16px);
           flex: 0 0 calc(15% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--20 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(20% - 16px);
           flex: 0 0 calc(20% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--25 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(25% - 16px);
           flex: 0 0 calc(25% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--30 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(30% - 16px);
           flex: 0 0 calc(30% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--35 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(35% - 16px);
           flex: 0 0 calc(35% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--40 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(40% - 16px);
           flex: 0 0 calc(40% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--45 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(45% - 16px);
           flex: 0 0 calc(45% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--50 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(50% - 16px);
           flex: 0 0 calc(50% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--55 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(55% - 16px);
           flex: 0 0 calc(55% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--60 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(60% - 16px);
           flex: 0 0 calc(60% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--65 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(65% - 16px);
           flex: 0 0 calc(65% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--70 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(70% - 16px);
           flex: 0 0 calc(70% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--75 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(75% - 16px);
           flex: 0 0 calc(75% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--80 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(80% - 16px);
           flex: 0 0 calc(80% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--85 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(85% - 16px);
           flex: 0 0 calc(85% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--90 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(90% - 16px);
           flex: 0 0 calc(90% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--95 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(95% - 16px);
           flex: 0 0 calc(95% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 .grid_cell--100 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(100% - 16px);
           flex: 0 0 calc(100% - 16px);
-  margin: 0 8px;
+  margin: 0 0px;
 }
 
 /*------------------------------------*\
@@ -363,12 +371,17 @@ h1 {
 h2, h3, h4 {
   margin-top: 18px;
   margin-bottom: 12px;
+  margin-left: 8px;
+}
+
+p {
+  margin: 0 8px;
 }
 
 .linea {
   border-top: 1px solid black;
   height: 2px;
-  max-width: 100%;
+  max-width: 95%;
   padding: 0;
   margin: 10px auto 0 auto;
 }
@@ -376,6 +389,80 @@ h2, h3, h4 {
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hamburger {
+  display: none;
+}
+
+.hamitems {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  display: none;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hamnav input:checked ~ .hamitems {
+  display: block;
+  position: absolute;
+  right: 0;
+  -webkit-transform: translateX(-45%);
+          transform: translateX(-45%);
+}
+
+.hamitems a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+}
+
+.hamnav svg {
+  font-size: 12em;
+  font-style: normal;
+  padding: 10px;
+}
+
+.avatar {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: #333333;
+  border: solid 5px white;
+  border-radius: 50%;
+  background-image: url("../../images/foto-perfil.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-top: 12px;
+}
+
 .grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,65 +545,6 @@ h2, h3, h4 {
 
 .footer-div {
   margin: 10px auto 12px auto;
-}
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 12px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#hamburger {
-  display: none;
-}
-
-.hamitems {
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  display: none;
-  position: absolute;
-  right: 0;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-
-.hamnav input:checked ~ .hamitems {
-  display: block;
-  position: absolute;
-  right: 0;
-  -webkit-transform: translateX(-45%);
-          transform: translateX(-45%);
-}
-
-.hamitems a {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid black;
-  text-decoration: none;
-  text-align: center;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-preferred-size: 0;
-      flex-basis: 0;
-}
-
-.hamnav svg {
-  font-size: 12em;
-  font-style: normal;
-  padding: 10px;
 }
 
 .skills {

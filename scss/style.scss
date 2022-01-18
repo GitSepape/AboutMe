@@ -23,6 +23,8 @@
     $COMPONENTS
 \*------------------------------------*/
 @import
+    "components/navbar.scss",
+    "components/avatar.scss",
     "components/gridcells.scss",
     "components/buttons.scss",
     "components/forms.scss",
@@ -36,5 +38,4 @@
     "layout/aficiones.scss",
     "layout/footer.scss",
     "layout/header.scss",
-    "layout/navbar.scss",
     "layout/skills.scss";

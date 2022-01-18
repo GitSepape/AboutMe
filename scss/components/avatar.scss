@@ -1,0 +1,20 @@
+.avatar {
+    // display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: $grey;
+    border: solid 5px white;
+    border-radius: 50%;
+    background-image: url('../../images/foto-perfil.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;    
+    margin-top: 12px;
+
+    // &:hover {
+    //     transform: scale(1.2) rotate(180deg) translateX(-30%);
+    //     box-shadow: -2px -2px 5px 5px rgba(0, 0, 0, 0.5);
+    // }
+}
