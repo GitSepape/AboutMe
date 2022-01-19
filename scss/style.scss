@@ -24,7 +24,7 @@
 \*------------------------------------*/
 @import
     "components/navbar.scss",
-    "components/avatar.scss",
+    "components/perfil.scss",
     "components/gridcells.scss",
     "components/buttons.scss",
     "components/forms.scss",
@@ -35,7 +35,7 @@
     $LAYOUT
 \*------------------------------------*/
 @import
-    "layout/aficiones.scss",
-    "layout/footer.scss",
     "layout/header.scss",
-    "layout/skills.scss";
+    "layout/skills.scss",
+    "layout/aficiones.scss",
+    "layout/footer.scss";
