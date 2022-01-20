@@ -23,6 +23,7 @@ $lato:      Lato, serif;
 $font-size: 12;
 $font-weight: 100;
 $padding-space: 5;
+$margin-space: 5;
 
 .cormorant {
     font-family: $cormorant;
@@ -44,6 +45,7 @@ $space--medium: $space * 1.5;
 $padding: $unit;
 $pagemaxwidth: 1024px;
 $grid_cell: 5;
+
 
 /*------------------------------------*\
     $BUCLE COLORS
@@ -94,9 +96,10 @@ $brand-colors: (
 \*------------------------------------*/
 
 
-@while $padding-space <= 100 {
+@while $padding-space <= 20 {
     .padding_space--#{$padding-space} {
-        padding: ($padding-space * 1%);
+        padding-right: ($padding-space * 1%);
+        padding-left: ($padding-space * 1%);
     }
 
     $padding-space: $padding-space + 5;
@@ -112,4 +115,17 @@ $brand-colors: (
         margin: 0 0px;
     }
     $grid_cell: $grid_cell + 5;
+}
+
+/*------------------------------------*\
+    $BUCLE MARGIN
+\*------------------------------------*/
+
+@while $margin-space <= 20 {
+    .margin_space--#{$margin-space} {
+        margin-right: ($margin-space * 1%);
+        margin-left: ($margin-space * 1%);
+    }
+
+    $margin-space: $margin-space + 5;
 }

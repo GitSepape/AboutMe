@@ -381,6 +381,7 @@ p {
   right: 0;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  z-index: 2;
 }
 
 .hamnav input:checked ~ .hamitems {
