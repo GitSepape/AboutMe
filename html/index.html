@@ -10,8 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Lato:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/style.css">
     </head>
-    <body class="bg-color-blue-raf padding_space--5">
-        <header class="grid_cell--100">
+    <body class="">
+        <header class="grid_cell--100 padding_space--5">
             <div class="navbar">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8.75699 22.8876C8.48761 23.3257 8.0451 23.6299 7.43043 23.7987C8.0451 23.9685 8.48761 24.2717 8.75699 24.7103C9.02636 25.1485 9.16081 25.7912 9.16081 26.6371V29.5905C9.16081 30.1288 9.29913 30.5404 9.57624 30.8252C9.85335 31.1096 10.2683 31.2518 10.822 31.2518H11.1451V34.5974H9.6454C8.0451 34.5974 6.83364 34.2091 6.01101 33.4324C5.18789 32.6557 4.77681 31.5439 4.77681 30.0983V26.5215C4.77681 26.168 4.68783 25.9068 4.51131 25.7371C4.33382 25.5678 4.09201 25.4832 3.78443 25.4832H3V22.1143H3.78443C4.09201 22.1143 4.33382 22.0301 4.51131 21.8604C4.68783 21.6916 4.77681 21.43 4.77681 21.0759V17.4996C4.77681 16.0541 5.18789 14.9422 6.01101 14.165C6.83364 13.3884 8.0451 13 9.6454 13H11.1451V16.3457H10.822C10.2683 16.3457 9.85335 16.4883 9.57624 16.7727C9.29913 17.0576 9.16081 17.4686 9.16081 18.0074V20.9608C9.16081 21.8067 9.02636 22.4489 8.75699 22.8876Z" fill="black"/>
@@ -37,30 +37,26 @@
             </div>
         </header>
         <main>
-            <section class="bg-color-blue-raf-dark"> <!-- en este section va a ir el grid cell 2, en el cual pertenece la foto de perfil con algo más -->
-                <div class="grid_cell--100">
-                    <div class="linea"></div>
-                    <article> <!-- imagen de perfil y muy breve descripción -->
-                        <div class="avatar"></div>
-                        <!-- <h2 class="font-size-30 cormorant">Sergio Pascual</h2> -->
-                        <p class="lato font-weight-700 font-size-18 perfil-descripcion padding_space--5"> <!-- breve introducción -->
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </article>
-                    <article class="bg-color-blue-raf skills"> <!-- celda donde va a ir las skills etc -->
-                        <div class="linea"></div>
-                        <h3 class="font-size-24 cormorant">Skills</h3>
-                        <p class="lato font-weight-700 font-size-18 padding_space--5">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio itaque rem omnis porro vero voluptas, voluptates illo temporibus, facere nulla asperiores accusantium dolor quod fugit. Dolor unde nesciunt aliquam commodi?
-                        </p>
-                    </article>
-                </div>
+            <section class=" grid_cell--100"> <!-- en este section va a ir el grid cell 2, en el cual pertenece la foto de perfil con algo más -->
+                <article class="bg-color-blue-raf-dark perfil"> <!-- imagen de perfil y muy breve descripción -->
+                    <div class="avatar"></div>
+                    <!-- <h2 class="font-size-30 cormorant">Sergio Pascual</h2> -->
+                    <p class="lato font-weight-700 font-size-18 perfil-descripcion"> <!-- breve introducción -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </article>
+                <article class="skills "> <!-- celda donde va a ir las skills etc -->
+                    <h3 class="font-size-24 cormorant">Skills</h3>
+                    <p class="lato font-weight-700 font-size-18">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio itaque rem omnis porro vero voluptas, voluptates illo temporibus, facere nulla asperiores accusantium dolor quod fugit. Dolor unde nesciunt aliquam commodi?
+                    </p>
+                </article>
             </section>
             <section class="grid_cell--100">
                 <div class="linea"></div> <!-- aquí va el tercer grid cell con "about me", skills y formulario de contacto -->
                 <article> <!-- celda donde va a ir about me -->
                     <h3 class="font-size-24 cormorant">About Me</h3>
-                    <p class="lato font-weight-700 font-size-18 padding_space--5">
+                    <p class="lato font-weight-700 font-size-18">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, debitis, corporis beatae sit exercitationem dolore quia cum mollitia perferendis recusandae minima ipsum, unde reprehenderit quae ea praesentium at nostrum! Consectetur!
                     </p>
                 </article>
@@ -103,7 +99,7 @@
                     </ol>
                 </article>
                 <div class="linea"></div>
-                <h4 class="font-size-24 cormorant">Contáctame!</h4>
+                <h4 class="font-size-36 cormorant">Contáctame!</h4>
                 <form class="formulario" action=""> <!-- formulario -->
                     <input class="lato font-weight-700 font-size-18 formulario--contenido" type="text" name="nombre" placeholder="Nombre" required><br>
                     <input class="lato font-weight-700 font-size-18 formulario--contenido" type="email" name="correo" placeholder="Email" required><br>
@@ -112,10 +108,10 @@
                     <input class="lato font-weight-700 font-size-18 formulario--button" type="button" value="Send Message">
                 </form>
             </section>
+            <div class="linea"></div>
         </main>
-        <footer class="grid_cell--100 center-text">
-            <div class="linea footer-div"></div> <!-- Derechos reservados y todas esas parafernalias -->
-            <p class="lato font-weight-600 font-size-18">
+        <footer class="grid_cell--100 center-text padding_space--5"> <!-- Derechos reservados y todas esas parafernalias -->
+            <p class="lato font-weight-600 font-size-18 derechos">
                 derechos reservados
             </p>
         </footer>

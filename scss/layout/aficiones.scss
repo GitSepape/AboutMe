@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding-left: 0px;
+    margin-bottom: 0px;
 }
 
 .aficiones li {
@@ -11,12 +12,13 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 0;
-    padding-top: 20px;
+    padding-bottom: 36px;
 }
 
 .aficiones :first-child {
     padding-top: 0;
 }
+
 
 .aficiones li span {
     align-items: center;
