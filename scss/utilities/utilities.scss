@@ -1,5 +1,17 @@
 main {
     margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------------------------------*\
+    $MEDIA QUERY BODY
+\*------------------------------------*/
+
+@media all and (min-width: 700px) {
+    main {
+        flex-direction: row;
+    }
 }
 
 li {

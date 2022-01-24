@@ -43,7 +43,8 @@ $unit: 6px;
 $space: $unit * 2;
 $space--medium: $space * 1.5;
 $padding: $unit;
-$pagemaxwidth: 1024px;
+$pagemaxwidth: 2048px;
+$pageminwidth: 100px;
 $grid_cell: 5;
 
 
@@ -128,4 +129,15 @@ $brand-colors: (
     }
 
     $margin-space: $margin-space + 5;
+}
+
+/*------------------------------------*\
+    $MEDIA QUERY BODY
+\*------------------------------------*/
+
+@media all and (min-width: 700px) {
+    body {
+        flex-direction: row;
+        padding: 2%;
+    }
 }

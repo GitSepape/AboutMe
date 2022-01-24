@@ -1,0 +1,22 @@
+.sergio {
+    display: flex;
+}
+
+.header {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*------------------------------------*\
+    $MEDIA QUERY SERGIO
+\*------------------------------------*/
+
+@media all and (min-width: 700px) {
+    .sergio {
+        display: none;
+    }
+    .header {
+        padding-left: 0%;
+        padding-right: 2%;
+    }
+}

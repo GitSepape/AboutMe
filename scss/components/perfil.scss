@@ -5,10 +5,10 @@
 .avatar {
     // display: inline-block;
     position: relative;
-    width: 270px;
-    height: 180px;
-    background-color: $grey;
-    border: solid 5px white;
+    width: 286px;
+    height: 330px;
+    background-color: #afb6ae;
+    border: solid 5px $blue-raf-dark;
     border-radius: 0%;
     background-image: url('../../images/foto-perfil.jpg');
     background-size: contain;
@@ -22,9 +22,29 @@
     // }
 }
 
+.sergio-perfil {
+    display: none;
+    margin: auto;
+    margin-top: 24px;
+    padding-bottom: 12px;
+    width: 85%;
+    text-align: center;
+}
+
 .perfil-descripcion {
     margin: auto;
     margin-top: 24px;
     padding-bottom: 36px;
+    padding-left: 0%;
     width: 85%;
+    text-align: center;
+}
+
+@media all and (min-width: 700px) {
+    .sergio-perfil {
+        display: block;
+    }
+    .perfil-descripcion {
+        margin-top: 0px;
+    }
 }
