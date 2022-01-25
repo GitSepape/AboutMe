@@ -37,11 +37,11 @@ body, html {
     $BUCLE COLORS
 \*------------------------------------*/
 .color-blue-raf-dark {
-  color: #9EB3C2;
+  color: #3AADD9;
 }
 
 .bg-color-blue-raf-dark {
-  background-color: #9EB3C2;
+  background-color: #3AADD9;
 }
 
 .color-blue-raf {
@@ -460,13 +460,12 @@ p {
   }
 
   .hamitems {
-    left: 0;
     right: auto;
   }
 
   .hamnav input:checked ~ .hamitems {
-    -webkit-transform: translateX(100%) translateY(-20%);
-            transform: translateX(100%) translateY(-20%);
+    -webkit-transform: translateX(30%) translateY(-50px);
+            transform: translateX(30%) translateY(-50px);
   }
 }
 .perfil {
@@ -478,7 +477,7 @@ p {
   width: 286px;
   height: 330px;
   background-color: #afb6ae;
-  border: solid 5px #9EB3C2;
+  border: solid 5px #3AADD9;
   border-radius: 0%;
   background-image: url("../../images/foto-perfil.jpg");
   background-size: contain;
@@ -542,12 +541,18 @@ p {
   border: solid 1px #333333;
   border-radius: 5px;
   padding: 16px;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .formulario--button {
   border: solid 1px #333333;
   border-radius: 5px;
   padding: 16px;
+}
+
+textarea {
+  min-height: 120px;
 }
 
 /*------------------------------------*\

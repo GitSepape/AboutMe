@@ -13,10 +13,16 @@
     border: solid 1px $grey;
     border-radius: 5px;
     padding: 16px;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .formulario--button {
     border: solid 1px $grey;
     border-radius: 5px;
     padding: 16px;
+}
+
+textarea {
+    min-height: 120px;
 }

@@ -50,10 +50,9 @@
         flex-direction: column;
     }
     .hamitems {
-        left: 0;
         right: auto;
     }
     .hamnav input:checked ~ .hamitems {
-        transform: translateX(100%) translateY(-20%);
+        transform: translateX(30%) translateY(-50px);
     }
 }
