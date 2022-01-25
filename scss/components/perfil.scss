@@ -10,7 +10,7 @@
     background-color: #afb6ae;
     border: solid 5px $blue-raf-dark;
     border-radius: 0%;
-    background-image: url('../../images/foto-perfil.jpg');
+    background-image: url('../images/foto-perfil.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -46,5 +46,12 @@
     }
     .perfil-descripcion {
         margin-top: 0px;
+    }
+}
+
+@media all and (max-width: 290px) {
+    .avatar {
+        width: 97%;
+        background-color: transparent;
     }
 }

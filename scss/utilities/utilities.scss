@@ -13,7 +13,7 @@ main {
     }
 }
 
-li {
+scroll-container section article  li {
     list-style: none;       //Quitamos los numeros y los puntos de las listas en general
 }
 
@@ -35,9 +35,13 @@ p {
     padding-left: 2%;
 }
 
+br {
+    margin-top: 12px;
+}
+
 .linea {
     border-top: 1px solid rgb(133, 133, 133);
     height: 2px;
     max-width: 95%;
     margin: 10px auto 0 auto;
-  }
+}
