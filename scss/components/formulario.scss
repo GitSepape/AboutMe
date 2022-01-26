@@ -18,9 +18,17 @@
 }
 
 .formulario--button {
-    border: solid 1px $grey;
+    background-color: $blue-raf-dark;
+    border: none;
     border-radius: 5px;
-    padding: 16px;
+    padding: 6px;
+}
+
+.formulario--button:hover {
+    background-color: $grey-hover;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 textarea {

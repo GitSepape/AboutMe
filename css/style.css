@@ -37,11 +37,12 @@ body, html {
     $BUCLE COLORS
 \*------------------------------------*/
 .color-blue-raf-dark {
-  color: #3AADD9;
+  color: #7293A0;
 }
 
 .bg-color-blue-raf-dark {
-  background-color: #3AADD9;
+  background-color: #7293A0;
+  border-radius: 1rem;
 }
 
 .color-blue-raf {
@@ -50,6 +51,7 @@ body, html {
 
 .bg-color-blue-raf {
   background-color: #DDE4E9;
+  border-radius: 1rem;
 }
 
 .color-grey {
@@ -58,6 +60,7 @@ body, html {
 
 .bg-color-grey {
   background-color: #333333;
+  border-radius: 1rem;
 }
 
 .color-black {
@@ -66,6 +69,7 @@ body, html {
 
 .bg-color-black {
   background-color: #000000;
+  border-radius: 1rem;
 }
 
 /*------------------------------------*\
@@ -473,28 +477,30 @@ br {
   }
 }
 .perfil {
-  padding-top: 36px;
+  padding-top: 12px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .avatar {
   position: relative;
-  width: 286px;
-  height: 330px;
-  background-color: #afb6ae;
-  border: solid 5px #3AADD9;
-  border-radius: 0%;
-  background-image: url("../images/foto-perfil.jpg");
+  width: 245px;
+  height: 281px;
+  border: solid 5px #7293A0;
+  border-radius: 2rem;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
+  background-image: url("../images/foto-perfil.jpg");
 }
 
 .sergio-perfil {
   display: none;
   margin: auto;
-  margin-top: 24px;
-  padding-bottom: 12px;
+  margin-top: 12px;
+  padding-bottom: 0.4rem;
   width: 85%;
   text-align: center;
 }
@@ -502,8 +508,8 @@ br {
 .perfil-descripcion {
   margin: auto;
   margin-top: 24px;
-  padding-bottom: 36px;
   padding-left: 0%;
+  padding-bottom: 1rem;
   width: 85%;
   text-align: center;
 }
@@ -517,7 +523,7 @@ br {
     margin-top: 0px;
   }
 }
-@media all and (max-width: 290px) {
+@media all and (max-width: 244px) {
   .avatar {
     width: 97%;
     background-color: transparent;
@@ -556,9 +562,18 @@ br {
 }
 
 .formulario--button {
-  border: solid 1px #333333;
+  background-color: #7293A0;
+  border: none;
   border-radius: 5px;
-  padding: 16px;
+  padding: 6px;
+}
+
+.formulario--button:hover {
+  background-color: #4D6272;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 textarea {
@@ -597,11 +612,14 @@ textarea {
 }
 
 .ol-skills {
-  padding-bottom: 12px;
+  padding-left: 0px;
+  list-style-type: none;
 }
 
-.margin-bottom-12 {
-  margin-bottom: 11px;
+.margin-skills {
+  margin: 1rem;
+  margin-bottom: 12px;
+  margin-top: 0px;
 }
 
 .aficiones {
@@ -646,7 +664,8 @@ textarea {
 }
 
 .derechos {
-  margin-top: 36px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 scroll-container {

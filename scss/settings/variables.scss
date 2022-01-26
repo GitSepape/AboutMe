@@ -3,7 +3,7 @@ body, html {
     margin: auto;
     display: flex;
     flex-direction: column;
-  }
+}
 
 * {
     box-sizing: border-box;
@@ -11,10 +11,13 @@ body, html {
 
 //-----> $COLORS
 
-$blue-raf-dark:     #3AADD9;
+// 1EC1C1 8CBDBF 7293A0 4D6272
+
+$blue-raf-dark:     #7293A0;
 $blue-raf-standard: #DDE4E9;
 $grey:              #333333;
 $black:             #000000;
+$grey-hover:        #4D6272;
 
 //-----> $TYPOGRAPHY // $FONTS
 
@@ -65,6 +68,7 @@ $brand-colors: (
     }
     .bg-color-#{$color-name} {
         background-color: $value;
+        border-radius: 1rem;
     }
 }
 

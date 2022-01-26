@@ -1,20 +1,20 @@
 .perfil {
-    padding-top: 36px;
+    padding-top: 12px;
+    height: max-content;
 }
 
 .avatar {
     // display: inline-block;
     position: relative;
-    width: 286px;
-    height: 330px;
-    background-color: #afb6ae;
+    width: 245px;
+    height: 281px;
     border: solid 5px $blue-raf-dark;
-    border-radius: 0%;
-    background-image: url('../images/foto-perfil.jpg');
+    border-radius: 2rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
+    background-image: url('../images/foto-perfil.jpg');
 
     // &:hover {
     //     transform: scale(1.2) rotate(180deg) translateX(-30%);
@@ -25,8 +25,8 @@
 .sergio-perfil {
     display: none;
     margin: auto;
-    margin-top: 24px;
-    padding-bottom: 12px;
+    margin-top: 12px;
+    padding-bottom: 0.4rem;
     width: 85%;
     text-align: center;
 }
@@ -34,8 +34,8 @@
 .perfil-descripcion {
     margin: auto;
     margin-top: 24px;
-    padding-bottom: 36px;
     padding-left: 0%;
+    padding-bottom: 1rem;
     width: 85%;
     text-align: center;
 }
@@ -49,7 +49,7 @@
     }
 }
 
-@media all and (max-width: 290px) {
+@media all and (max-width: 244px) {
     .avatar {
         width: 97%;
         background-color: transparent;
