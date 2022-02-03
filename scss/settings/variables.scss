@@ -73,11 +73,11 @@ $brand-colors: (
 }
 
 /*------------------------------------*\
-    $BUCLE FONT-SIZE
+    $BUCLE FONT_SIZE
 \*------------------------------------*/
 
 @while $font-size <= 36 {
-    .font-size-#{$font-size} {
+    .font_size--#{$font-size} {
         font-size: ($font-size * 1px);
     }
 
@@ -85,11 +85,11 @@ $brand-colors: (
 }
 
 /*------------------------------------*\
-    $BUCLE FONT-WEIGHT
+    $BUCLE FONT_WEIGHT
 \*------------------------------------*/
 
 @while $font-weight <= 900 {
-    .font-weight-#{$font-weight} {
+    .font_weight--#{$font-weight} {
         font-weight: ($font-weight * 1);
     }
 

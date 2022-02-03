@@ -73,64 +73,64 @@ body, html {
 }
 
 /*------------------------------------*\
-    $BUCLE FONT-SIZE
+    $BUCLE FONT_SIZE
 \*------------------------------------*/
-.font-size-12 {
+.font_size--12 {
   font-size: 12px;
 }
 
-.font-size-18 {
+.font_size--18 {
   font-size: 18px;
 }
 
-.font-size-24 {
+.font_size--24 {
   font-size: 24px;
 }
 
-.font-size-30 {
+.font_size--30 {
   font-size: 30px;
 }
 
-.font-size-36 {
+.font_size--36 {
   font-size: 36px;
 }
 
 /*------------------------------------*\
-    $BUCLE FONT-WEIGHT
+    $BUCLE FONT_WEIGHT
 \*------------------------------------*/
-.font-weight-100 {
+.font_weight--100 {
   font-weight: 100;
 }
 
-.font-weight-200 {
+.font_weight--200 {
   font-weight: 200;
 }
 
-.font-weight-300 {
+.font_weight--300 {
   font-weight: 300;
 }
 
-.font-weight-400 {
+.font_weight--400 {
   font-weight: 400;
 }
 
-.font-weight-500 {
+.font_weight--500 {
   font-weight: 500;
 }
 
-.font-weight-600 {
+.font_weight--600 {
   font-weight: 600;
 }
 
-.font-weight-700 {
+.font_weight--700 {
   font-weight: 700;
 }
 
-.font-weight-800 {
+.font_weight--800 {
   font-weight: 800;
 }
 
-.font-weight-900 {
+.font_weight--900 {
   font-weight: 900;
 }
 
