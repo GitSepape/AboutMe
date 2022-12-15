@@ -139,13 +139,3 @@ $brand-colors: (
     $MEDIA QUERY BODY
 \*------------------------------------*/
 
-@media all and (min-width: 700px) {
-    body {
-        flex-direction: row;
-        padding: 2%;
-        height: 100%;
-    }
-    html {
-        height: 100%;
-    }
-}

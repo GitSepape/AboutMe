@@ -1,17 +1,18 @@
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /*------------------------------------*\
     $MEDIA QUERY BODY
 \*------------------------------------*/
 
-@media all and (min-width: 700px) {
-    main {
-        flex-direction: row;
-    }
-}
+// @media all and (min-width: 700px) {
+//     main {
+//         flex-direction: row;
+//     }
+// }
 
 scroll-container section article  li {
     list-style: none;       //Quitamos los numeros y los puntos de las listas en general

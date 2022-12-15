@@ -326,20 +326,6 @@ body, html {
 /*------------------------------------*\
     $MEDIA QUERY BODY
 \*------------------------------------*/
-@media all and (min-width: 700px) {
-  body {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    padding: 2%;
-    height: 100%;
-  }
-
-  html {
-    height: 100%;
-  }
-}
 /*------------------------------------*\
     $UTILITIES
 \*------------------------------------*/
@@ -351,19 +337,14 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*------------------------------------*\
     $MEDIA QUERY BODY
 \*------------------------------------*/
-@media all and (min-width: 700px) {
-  main {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-}
 scroll-container section article li {
   list-style: none;
 }
@@ -391,7 +372,7 @@ br {
 }
 
 .linea {
-  border-top: 1px solid #858585;
+  border-top: 1px solid rgb(133, 133, 133);
   height: 2px;
   max-width: 95%;
   margin: 10px auto 0 auto;
@@ -404,17 +385,13 @@ br {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 12px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.topbar-enlaces {
+  padding-left: 12px;
 }
 
 #hamburger {
@@ -459,41 +436,32 @@ br {
   padding: 10px;
 }
 
-@media all and (min-width: 700px) {
-  .navbar {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .hamitems {
-    right: auto;
-  }
-
-  .hamnav input:checked ~ .hamitems {
-    -webkit-transform: translateX(30%) translateY(-50px);
-            transform: translateX(30%) translateY(-50px);
-  }
-}
 .perfil {
   padding-top: 12px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+  max-width: 680px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .avatar {
   position: relative;
-  width: 245px;
-  height: 281px;
+  width: 100%;
   border: solid 5px #1EC1C1;
   border-radius: 2rem;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
-  background-image: url("../images/foto-perfil.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.avatar__img {
+  border-radius: 16px;
+  margin: auto;
 }
 
 .sergio-perfil {
@@ -590,7 +558,7 @@ textarea {
 }
 
 .header {
-  padding-left: 5%;
+  padding-left: 16px;
   padding-right: 5%;
 }
 
@@ -600,11 +568,6 @@ textarea {
 @media all and (min-width: 700px) {
   .sergio {
     display: none;
-  }
-
-  .header {
-    padding-left: 0%;
-    padding-right: 2%;
   }
 }
 .skills {
@@ -679,6 +642,4 @@ scroll-container {
   width: 100%;
   max-height: 100%;
   height: auto;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
 }

@@ -3,7 +3,7 @@
 }
 
 .header {
-    padding-left: 5%;
+    padding-left: 16px;
     padding-right: 5%;
 }
 
@@ -14,9 +14,5 @@
 @media all and (min-width: 700px) {
     .sergio {
         display: none;
-    }
-    .header {
-        padding-left: 0%;
-        padding-right: 2%;
     }
 }
